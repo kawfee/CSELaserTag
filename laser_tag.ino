@@ -60,8 +60,8 @@ void setup() {
   Serial.println("Serial started");
   
   mt_setup();
-  mt_setTeamID(4);    // TO be changed to whatever server sends: valid teams=1-4
-  mt_setPlayerID(15); // Ditto.
+  mt_setTeamID(3);    // TO be changed to whatever server sends: valid teams=1-4
+  mt_setPlayerID(10); // Ditto.
   
   // set LED team colors
   setTeamLEDs();
